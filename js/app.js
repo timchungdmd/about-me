@@ -86,5 +86,4 @@ if(likeTravel==='yes'|| likeTravel==='y'){
   alert('This is a yes or no question. Try again');
 }
 
-alert(username+', thank you for participating in this short survey!');
-
+alert(username+', thank you for answering the questions!');
