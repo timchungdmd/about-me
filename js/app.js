@@ -36,12 +36,12 @@ One true and it will run
 //if (trueValue && falseValue){
 //  console.log('it evaluated to true');
 //}
-function playQuiz(){
   let username = prompt("What is your name?");
   console.log(username);
   let greet = alert("Hi " + username + ", welcome to my About Me page");
   console.log(greet);
   let likeMarvel = prompt("Do you like Marvel movies?");
+  console.log(likeMarvel);
   likeMarvel = likeMarvel.toLowerCase();
   //console.log(likeMarvel);
   if (likeMarvel === "yes" || likeMarvel === "y") {
@@ -106,4 +106,3 @@ function playQuiz(){
   }
 
   alert(username + ", thank you for participating in this short survey!");
-}
