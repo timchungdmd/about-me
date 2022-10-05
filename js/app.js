@@ -40,8 +40,8 @@ One true and it will run
 //}
 
 let username = prompt('What is your name?');
-let greet=alert('Hi '+username+', welcome to my About Me page');
-let likeMarvel=prompt('Do you like Marvel movies?');
+greet=alert('Hi '+username+', welcome to my About Me page');
+likeMarvel=prompt('Do you like Marvel movies?');
 likeMarvel = likeMarvel.toLowerCase();
 //console.log(likeMarvel);
 
@@ -53,7 +53,7 @@ if(likeMarvel=== 'yes' || likeMarvel=== 'y'){
 	alert('It\'s ok, to each its own');
 }
 
-let likeTacos=prompt('Do you like tacos?');
+likeTacos=prompt('Do you like tacos?');
 likeTacos=likeTacos.toLowerCase();
 if(likeTacos=== 'yes' || likeTacos=== 'y'){
  //console.log('Taco is my favorite food, I can probably eat it 24/7');
@@ -63,7 +63,7 @@ if(likeTacos=== 'yes' || likeTacos=== 'y'){
  alert('It was never a right or wrong question. You do you!');
 }
 
-let likeAnime=prompt('Do you watch animes?');
+likeAnime=prompt('Do you watch animes?');
 likeAnime=likeAnime.toLowerCase();
 if(likeAnime==='yes'|| likeAnime==='y'){
   //console.log('Me too, my favorite one is One Piece');
@@ -73,7 +73,7 @@ if(likeAnime==='yes'|| likeAnime==='y'){
   alert('There are so many things to watch these days!');
 }
 
-let likeApple=prompt('Do you have an iPhone?');
+likeApple=prompt('Do you have an iPhone?');
 likeApple=likeApple.toLowerCase();
 if(likeApple==='yes'|| likeApple==='y'){
   //console.log('Me too, Apple ecosystem is pretty amazing');
@@ -83,7 +83,7 @@ if(likeApple==='yes'|| likeApple==='y'){
   alert('Android is ok, I guess...!');
 }
 
-let likeTravel=prompt('Have you traveled anywhere in the past 6 months?');
+likeTravel=prompt('Have you traveled anywhere in the past 6 months?');
 likeTravel=likeTravel.toLowerCase();
 if(likeTravel==='yes'|| likeTravel==='y'){
   //console.log('Me too, it\s a great way to take a break and recharge mentally and physically');
