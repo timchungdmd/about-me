@@ -15,7 +15,7 @@ One true and it will run
 //}
   let username = prompt("What is your name?");
   let greet = alert("Hi " + username + ", welcome to my About Me page");
-
+  alert("I am going to ask you 5 questions and lets see if we are alike or not.")
   let likeMarvel = prompt("Do you like Marvel movies?");
   likeMarvel = likeMarvel.toLowerCase();
   if (likeMarvel === "yes" || likeMarvel === "y") {
