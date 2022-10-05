@@ -41,8 +41,6 @@ One true and it will run
 
 let username = prompt('What is your name?');
 let greet=alert('Hi '+username+', welcome to my About Me page');
-alert("This page contains more information about who I am.")
-
 let likeMarvel=prompt('Do you like Marvel movies?');
 likeMarvel = likeMarvel.toLowerCase();
 //console.log(likeMarvel);
