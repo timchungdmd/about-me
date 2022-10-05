@@ -37,9 +37,7 @@ One true and it will run
 //  console.log('it evaluated to true');
 //}
   let username = prompt("What is your name?");
-  console.log(username);
   let greet = alert("Hi " + username + ", welcome to my About Me page");
-  console.log(greet);
   let likeMarvel = prompt("Do you like Marvel movies?");
   likeMarvel = likeMarvel.toLowerCase();
   //console.log(likeMarvel);
