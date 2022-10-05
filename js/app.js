@@ -36,6 +36,7 @@ One true and it will run
 //if (trueValue && falseValue){
 //  console.log('it evaluated to true');
 //}
+function playQuiz(){
   let username = prompt("What is your name?");
   console.log(username);
   let greet = alert("Hi " + username + ", welcome to my About Me page");
@@ -105,3 +106,4 @@ One true and it will run
   }
 
   alert(username + ", thank you for participating in this short survey!");
+}
