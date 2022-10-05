@@ -41,7 +41,6 @@ One true and it will run
   let greet = alert("Hi " + username + ", welcome to my About Me page");
   console.log(greet);
   let likeMarvel = prompt("Do you like Marvel movies?");
-  console.log(likeMarvel);
   likeMarvel = likeMarvel.toLowerCase();
   //console.log(likeMarvel);
   if (likeMarvel === "yes" || likeMarvel === "y") {
