@@ -19,7 +19,7 @@ let username = prompt('What is your name?');
 console.log(username);
 let greet=alert('Hi '+username+', welcome to my About Me page');
 console.log(greet);
-document.getElementById("greet").innerHTML = 'Hi '+username+', welcome to my About Me page'
+
 
 alert("This page contains more information about who I am.")
 
@@ -77,3 +77,4 @@ if(likeTravel==='yes'|| likeTravel==='y'){
 }
 
 alert(username+', thank you for participating in this short survey!');
+document.getElementById("greet").innerHTML = 'Hi '+username+', welcome to my About Me page'
