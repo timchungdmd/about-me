@@ -47,8 +47,8 @@ One true and it will run
     //console.log('Me too, my favorite one is One Piece');
     alert("Me too, my favorite one is One Piece");
   } else if (likeAnime === "no" || likeAnime === "n") {
-    //console.log('There are so many things to watch these days!');
-    alert("There are so many things to watch these days!");
+    //console.log('I understand. There are so many other things to watch these days!');
+    alert("I understand. There are so many other things to watch these days!");
   }else {
     console.log('You need to answer with a Yes or a No');
   }
