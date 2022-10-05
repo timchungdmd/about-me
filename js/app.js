@@ -1,27 +1,4 @@
 "use strict";
-
-console.log("hi");
-
-let booleanValue = true;
-
-if (booleanValue) {
-  console.log("if condition is true this will print in the console");
-}
-
-/*
-&& — is the 'logical and'
-One false with an && and it will not run
-|| — is the 'logical or' (double pipe)
-One true and it will run
-! - 'logical not' often called 'bang'
-*/
-
-let trueValue = true;
-let falseValue = false;
-
-if (trueValue || falseValue) {
-  console.log("it evaluated to true");
-}
 /*
 && - is the 'logical and'
 One false with an && and it will not run
