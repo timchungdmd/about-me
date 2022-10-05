@@ -46,7 +46,7 @@ One true and it will run
   likeAnime = likeAnime.toLowerCase();
   if (likeAnime === "yes" || likeAnime === "y") {
     //console.log('Me too, my favorite one is One Piece');
-    alert("Me too, my favorite one is One Piece");
+    alert("Me too! my favorite anime is One Piece");
   } else if (likeAnime === "no" || likeAnime === "n") {
     //console.log('I understand. There are so many other things to watch these days!');
     alert("I understand. There are so many other things to watch these days!");
@@ -58,7 +58,7 @@ One true and it will run
   likeApple = likeApple.toLowerCase();
   if (likeApple === "yes" || likeApple === "y") {
     //console.log('Me too, Apple ecosystem is pretty amazing');
-    alert("Me too, Apple ecosystem is pretty amazing");
+    alert("Me too! Apple ecosystem is pretty amazing");
   } else if (likeApple === "no" || likeApple === "n") {
     //console.log('Android is ok, I guess...!');
     alert("Android is ok, I guess...!");
@@ -71,7 +71,7 @@ One true and it will run
   if (likeTravel === "yes" || likeTravel === "y") {
     //console.log('Me too, it\s a great way to take a break and recharge mentally and physically');
     alert(
-      "Me too, its a great way to take a break and recharge mentally and physically"
+      "Me too! its a great way to recharge mentally and physically"
     );
   } else if (likeTravel === "no" || likeTravel === "n") {
     //console.log('You should plan for a travel in the near future.');
