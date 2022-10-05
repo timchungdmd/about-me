@@ -34,6 +34,8 @@ if(likeMarvel=== 'yes' || likeMarvel=== 'y'){
 }else if(likeMarvel ==='no'|| likeMarvel==='n'){
 	//console.log(('It\'s ok, to each its own');
 	alert('It\'s ok, to each its own');
+}else{
+  alert('This is a yes or no question. Try again');
 }
 
 let likeTacos=prompt('Do you like tacos?');
@@ -44,6 +46,8 @@ if(likeTacos=== 'yes' || likeTacos=== 'y'){
 }else if(likeTacos=== 'no' || likeTacos=== 'n'){
  //console.log('It was never a right or wrong question.You do you!');
  alert('It was never a right or wrong question. You do you!');
+}else{
+  alert('This is a yes or no question. Try again');
 }
 
 let likeAnime=prompt('Do you watch animes?');
@@ -54,6 +58,8 @@ if(likeAnime==='yes'|| likeAnime==='y'){
 }else if(likeAnime==='no'||likeAnime==='n'){
   //console.log('There are so many things to watch these days!');
   alert('There are so many things to watch these days!');
+}else{
+  alert('This is a yes or no question. Try again');
 }
 
 let likeApple=prompt('Do you have an iPhone?');
@@ -64,6 +70,8 @@ if(likeApple==='yes'|| likeApple==='y'){
 }else if(likeApple==='no'||likeApple==='n'){
   //console.log('Android is ok, I guess...!');
   alert('Android is ok, I guess...!');
+}else{
+  alert('This is a yes or no question. Try again');
 }
 
 let likeTravel=prompt('Have you traveled anywhere in the past 6 months?');
@@ -74,6 +82,8 @@ if(likeTravel==='yes'|| likeTravel==='y'){
 }else if(likeTravel==='no'||likeTravel==='n'){
   //console.log('You should plan for a travel in the near future.');
   alert('You should plan for a travel in the near future.');
+}else{
+  alert('This is a yes or no question. Try again');
 }
 
 alert(username+', thank you for participating in this short survey!');
