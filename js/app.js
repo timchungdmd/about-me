@@ -47,7 +47,7 @@ if(likeTacos=== 'yes' || likeTacos=== 'y'){
 let likeAnime=prompt('Do you watch animes?');
 likeAnime=likeAnime.toLowerCase();
 if(likeAnime==='yes'|| likeAnime==='y'){
-  //console.log('Me too, my favorite one is One Piece');
+  //console.log('Me too! my favorite animeis One Piece');
   alert('Me too! My favorite anime is One Piece');
 }else if(likeAnime==='no'||likeAnime==='n'){
   //console.log('There are so many things to watch these days!');
@@ -80,4 +80,5 @@ if(likeTravel==='yes'|| likeTravel==='y'){
   alert('This is a yes or no question. Try again');
 }
 
-alert(username+', thank you for answering the questions!');
+let exitmsg=alert(username+', thank you for answering the questions!');
+document.getElementById('greet').innerHTML=exitmsg;
