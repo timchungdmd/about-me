@@ -87,4 +87,4 @@ if(likeTravel==='yes'|| likeTravel==='y'){
 }
 
 alert(username+', thank you for participating in this short survey!');
-document.getElementById("greet").innerHTML = 'Hi '+username+', welcome to my About Me page'
+
