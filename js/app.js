@@ -18,7 +18,6 @@ One true and it will run
 let username = prompt('What is your name?');
 console.log(username);
 let greet=alert('Hi '+username+', welcome to my About Me page');
-console.log(greet);
 
 let likeMarvel=prompt('Do you like Marvel movies?');
 likeMarvel = likeMarvel.toLowerCase();
