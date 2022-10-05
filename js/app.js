@@ -30,7 +30,7 @@ console.log(likeMarvel)
 
 if(likeMarvel=== 'yes' || likeMarvel=== 'y'){
 	//console.log('So do I! It is my favorite movie franchise');
-	alert('So do I! It is my favorite movie franchise');
+	alert('So do I! It is my favorite movie franchise.');
 }else if(likeMarvel ==='no'|| likeMarvel==='n'){
 	//console.log(('It\'s ok, to each its own');
 	alert('It\'s ok, to each its own');
@@ -40,7 +40,7 @@ let likeTacos=prompt('Do you like tacos?');
 likeTacos=likeTacos.toLowerCase();
 if(likeTacos=== 'yes' || likeTacos=== 'y'){
  //console.log('Taco is my favorite food, I can probably eat it 24/7');
- alert('Taco is my favorite food, I can eat it 24/7');
+ alert('Taco is my favorite food! I can eat it 24/7');
 }else if(likeTacos=== 'no' || likeTacos=== 'n'){
  //console.log('It was never a right or wrong question.You do you!');
  alert('It was never a right or wrong question. You do you!');
