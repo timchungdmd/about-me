@@ -1,4 +1,4 @@
-
+'use strict';
 //6th quiz
 alert("Let's play another game!");
 const randomNumber = Math.floor(Math.random() * 15) + 1;
