@@ -49,6 +49,6 @@ ol{
   border-style: dotted;
   border-width: 1px;
   padding: 0.5em;
-  list-style-position: inside;
   list-style: numbers;
+  list-style-position: inside;
 }
