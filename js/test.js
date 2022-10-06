@@ -17,8 +17,6 @@ while (attempts > 0) {
     alert("You guessed the correct number! Congratulations! You get "+attempts+" point(s).");
     break;
   }else if(parseInt(guessNumber)!==randomNumber){
-    guessNumber=prompt(
-    `Guess again. You have ${attempts} attempts left`);
     if(parseInt(guessNumber) > randomNumber) {
       attempts--;
       alert("Your guess was too high.");
@@ -39,19 +37,21 @@ let mcdmenu=['BIG MAC','DOUBLE CHEESEBURGER','CHICKEN SANDWICH','MCNUGGETS','QUA
 const random = Math.floor(Math.random() * 7) + 1;
 let answer=mcdmenu[random]
 let tries1=6;
-for(i=6; i>0; i--){
+for(let i=6; i>0; i--){
+  console.log("MENU: "+mcdmenu);
   let guess=prompt(`Guess my favorite menu from McDonalds. You have ${tries1} guesses.`)
-  guess=guess.toUpperCase()
-  if(guess.toUpperCase()===answer){
+  let guessUp=guess.toUpperCase()
+  
+  if(guessUp===answer){
     alert('Yup, that\'s what I always order at McDonalds!');
     break;
-  }else if(guess.toUpperCase()!==answer){
-    for(j=0;j<mcdmenu.length;j++){
-      if(guess.toUpperCase()=== mcdmenu[j]){
+  }else if(guessUp!==answer){
+    for(let j=0;j<mcdmenu.length;j++){
+      if(guessUp=== mcdmenu[j]){
         tries1--;
         alert('Eh, I rarely order that. Try again');
         break;
-      }else if(guess.toUpperCase()!==mcdmenu[j]){
+      }else if(guessUp!==mcdmenu[j]){
         tries1--;
         alert('That\'s not on the menu. Try again');
         break;
