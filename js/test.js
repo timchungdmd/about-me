@@ -6,12 +6,13 @@ const randomNumber = Math.floor(Math.random() * 15) + 1;
 let finalScore1=0;
 let attempts = 5;
 let guessNumber = 
-  prompt(
-    `Guess a number I'm thinking right now. It's between 1 and 15, and you get ${attempts} attempts`
+  alert(
+    `I'm thinking of a number between 1 and 15 right now. What number am I thinking?`
   );
   
 while (attempts > 0) {
-
+  guessNumber=prompt(
+    `Pick a number. You have ${attempts} attempts left`);
   if(parseInt(guessNumber)===randomNumber){
     alert("You guessed the correct number! Congratulations! You get "+attempts+" point(s).");
     break;
