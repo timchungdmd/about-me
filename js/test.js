@@ -11,6 +11,7 @@ let guessNumber =
   );
   
 while (attempts > 0) {
+
   if(parseInt(guessNumber)===randomNumber){
     alert("You guessed the correct number! Congratulations! You get "+attempts+" point(s).");
     break;
