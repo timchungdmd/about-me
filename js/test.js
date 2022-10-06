@@ -32,9 +32,8 @@ finalScore1=+attempts;
 console.log(finalScore1);
 
 //7th quiz
-alert("I promise this is the last game we will play");
+let alert("I promise this is the last game we will play");
 let mcdmenu=['BIG MAC','DOUBLE CHEESEBURGER','CHICKEN SANDWICH','MCNUGGETS','QUARTER POUNDER', 'MCFLURRY','SPICY MCCHICKEN']
-console.log('MENU: '+mcdmenu);
 const random = Math.floor(Math.random() * 7) + 1;
 let answer=mcdmenu[random]
 let tries1=6;
