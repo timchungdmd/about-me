@@ -36,10 +36,18 @@ ul{
   border-style: dotted;
   border-width: 1px;
   padding: 0.5em;
+  list-style-type: circle;
+  list-style-position: inside;
 }
 footer{
   border-width: 1px 0 1px 0;
   border-color: rgb(80, 80, 80); 
   border-style: dotted;
   padding: 2em;
+}
+ol{
+  border-style: dotted;
+  border-width: 1px;
+  padding: 0.5em;
+  list-style-position: inside;
 }
