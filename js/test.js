@@ -38,8 +38,7 @@ const random = Math.floor(Math.random() * 7) + 1;
 let answer=mcdmenu[random]
 let tries1=6;
 for(let i=6; i>0; i--){
-  let menu=console.log("MENU: "+mcdmenu);
-  let guess=prompt(`Guess my favorite menu from McDonalds. You have ${tries1} guesses.`+menu);
+  let guess=prompt(`Guess my favorite menu from McDonalds. You have ${tries1} guesses. MENU: ${mcdmenu}`);
   let guessUp=guess.toUpperCase()
   
   if(guessUp===answer){
