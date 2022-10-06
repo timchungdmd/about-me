@@ -5,7 +5,7 @@ const randomNumber = Math.floor(Math.random() * 15) + 1;
 
 let finalScore1=0;
 let attempts = 5;
-let guessNumber = 
+let intro = 
   alert(
     `I'm thinking of a number between 1 and 15 right now. What number am I thinking?`
   );
