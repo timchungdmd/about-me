@@ -60,5 +60,5 @@ for(let i=6; i>0; i--){
   }}
 let finalScore2=tries1;
 let total=finalScore1+finalScore2
-console.log(`You got ${finalScore2} from this quiz. Your total score is ${total}`);
+console.log(`You got ${finalScore2} point from this quiz. Your total score is ${total}`);
 alert(`You got ${finalScore2} from this quiz. Your total score is ${total}`)
