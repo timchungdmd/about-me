@@ -1,6 +1,6 @@
 'use strict';
 //6th quiz
-alert("Let's play another game!");
+let start=alert("Let's play another game!");
 const randomNumber = Math.floor(Math.random() * 15) + 1;
 
 let finalScore1=0;
