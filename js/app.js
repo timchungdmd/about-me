@@ -81,7 +81,7 @@ function qTravel() {
 }
 
 
-function game1(){
+function game1() {
   let start = alert("Let's play another game!");
   const randomNumber = Math.floor(Math.random() * 15) + 1;
 
@@ -107,7 +107,7 @@ function game1(){
         alert("Your guess was too low.");
       } else if (isNaN(parseInt(guessNumber))) {
         attempts--;
-        alert("You can only guess a numerical value. You just wasted a guess.");
+        alert("You can only guess a numerical value.");
       }
     }
   }
