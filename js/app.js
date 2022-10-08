@@ -1,83 +1,153 @@
+'use strict';
 "use strict";
-/*
-&& - is the 'logical and'
-One false with an && and it will not run
-
-|| - is the 'logical or' (double pipe)
-One true and it will run
-! - 'logical not' often call 'bang'
-*/
-//let trueValue=true;
-//let falseValue=false;
-
-//if (trueValue && falseValue){
-//  console.log('it evaluated to true');
-//}
+function qName() {
   let username = prompt("What is your name?");
-  console.log(username);
-  let greet = alert("Hi " + username + ", welcome to my About Me page");
-  alert("I am going to ask you 5 questions and lets see if we are alike or not.")
-  let likeMarvel = prompt("Do you like Marvel movies?");
-  likeMarvel = likeMarvel.toLowerCase();
-  if (likeMarvel === "yes" || likeMarvel === "y") {
-    //console.log('So do I! It is my favorite movie franchise');
-    alert("So do I! It is my favorite movie franchise");
-  } else if(likeMarvel === "no" || likeMarvel === "n") {
+  while(username===''){
+     username=prompt('You can\'t leave this answer blank. What is your name pretty please?');
+  }  
+  let greet=alert("Hi " + username + ", welcome to my About Me page");
+
+  alert("I am going to ask you 5 questions and lets see if we are alike or not.");
+  
+
+let likeMarvel = prompt("Do you like Marvel movies?");
+  while(likeMarvel===''){
+    likeMarvel=prompt("It's a yes or no question");
+    likeMarvel = likeMarvel.toLowerCase();
+  }
+    if (likeMarvel === "yes" || likeMarvel === "y") {
+    alert("So do I! It is my favorite movie franchise. Do you like Marvel movies?");
+  } else if (likeMarvel === "no" || likeMarvel === "n") {
     //console.log(('It\'s ok, to each its own');
     alert("It's ok, to each its own");
-  }else{
-    alert('You need to answer with a Yes or a No');
-  }
+    }
+}
 
+function qTaco() {
   let likeTacos = prompt("Do you like tacos?");
+  while(likeTacos===''|| !isNaN(likeTacos)){
+    likeTacos=prompt('It\'s a yes or no question. Do you like Tacos?');
+  }  
   likeTacos = likeTacos.toLowerCase();
-  if (likeTacos === "yes" || likeTacos === "y") {
-    //console.log('Taco is my favorite food, I can probably eat it 24/7');
-    alert("Taco is my favorite food, I can probably eat it 24/7");
+  if (likeTacos === "yes" ||likeTacos === "y") {
+    alert("I love tacos, I can probably eat it 24/7");
   } else if (likeTacos === "no" || likeTacos === "n") {
-    //console.log('It was never a right or wrong question.You do you!');
-    alert("It was never a right or wrong question. You do you!");
-  }else {
-    alert('You need to answer with a Yes or a No');
-  }
- 
+  alert("It was never a right or wrong question. You do you!");
+  } 
+}
 
-  let likeAnime = prompt("Do you watch animes?");
-  likeAnime = likeAnime.toLowerCase();
-  if (likeAnime === "yes" || likeAnime === "y") {
-    //console.log('Me too, my favorite one is One Piece');
-    alert("Me too! my favorite anime is One Piece");
-  } else if (likeAnime === "no" || likeAnime === "n") {
-    //console.log('I understand. There are so many other things to watch these days!');
+function qAnime() {
+  let watchAnime = prompt("Do you watch animes?");
+  while(watchAnime===''|| !isNaN(watchAnime)){
+    watchAnime=prompt("It's a yes or no question. Do you watch animes?");
+  }  
+  watchAnime = watchAnime.toLowerCase();
+  if (watchAnime === "yes" ||watchAnime === "y") {
+  alert("Me too! my favorite anime is One Piece");
+  } else if (watchAnime === "no" || watchAnime === "n") {
     alert("I understand. There are so many other things to watch these days!");
-  }else {
-    alert('You need to answer with a Yes or a No');
-  }
+  } 
+}
 
-  let likeApple = prompt("Do you have an iPhone?");
-  likeApple = likeApple.toLowerCase();
-  if (likeApple === "yes" || likeApple === "y") {
-    //console.log('Me too, Apple ecosystem is pretty amazing');
+function qApple() {
+  let iPhone = prompt("Do you use an iPhone?");
+  while(iPhone===''|| !isNaN(iPhone)){
+    iPhone=prompt("It's a yes or no question. Do you use an iPhone?");
+  }  
+  iPhone = iPhone.toLowerCase();
+  if (iPhone=== "yes" ||iPhone === "y") {
     alert("Me too! Apple ecosystem is pretty amazing");
-  } else if (likeApple === "no" || likeApple === "n") {
-    //console.log('Android is ok, I guess...!');
+  } else if (iPhone === "no" || iPhone === "n") {
     alert("Android is ok, I guess...!");
-  }else {
-    alert('You need to answer with a Yes or a No');
-  }
+  } 
 
-  let likeTravel = prompt("Have you traveled anywhere in the past 6 months?");
+}
+
+function qTravel() {
+  let likeTravel = prompt("Do you like to travel?");
+  while(likeTravel===''|| !isNaN(likeTravel)){
+    likeTravel=prompt("It's a yes or no question. Do you like to travel?");
+  }  
   likeTravel = likeTravel.toLowerCase();
-  if (likeTravel === "yes" || likeTravel === "y") {
-    //console.log('Me too, it\s a great way to take a break and recharge mentally and physically');
-    alert(
-      "Me too! its a great way to recharge mentally and physically"
-    );
+  if (likeTravel=== "yes" ||likeTravel === "y") {
+    alert("Me too! its a great way to recharge mentally and physically"
+);
   } else if (likeTravel === "no" || likeTravel === "n") {
-    //console.log('You should plan for a travel in the near future.');
-    alert("You should plan for a travel in the near future.");
-  }else {
-    alert('You need to answer with a Yes or a No');
-  }
+    alert("You should plan for a travel in the near future. You earned it!");
+  } 
+
 
   alert(username + ", thank you for participating in this short survey!");
+}
+
+//6th quiz
+function game1() {
+  let start = alert("Let's play another game!");
+  const randomNumber = Math.floor(Math.random() * 15) + 1;
+
+  let finalScore1 = 0;
+  let attempts = 5;
+  let intro =
+    alert(
+      `I'm thinking of a number between 1 and 15 right now. What number am I thinking?`
+    );
+
+  while (attempts > 0) {
+    let guessNumber = prompt(
+      `Pick a number. You have ${attempts} attempts left`);
+    if (parseInt(guessNumber) === randomNumber) {
+      alert("You guessed the correct number! Congratulations! You get " + attempts + " point(s).");
+      break;
+    } else if (parseInt(guessNumber) !== randomNumber) {
+      if (parseInt(guessNumber) > randomNumber) {
+        attempts--;
+        alert("Your guess was too high.");
+      } else if (parseInt(guessNumber) < randomNumber) {
+        attempts--;
+        alert("Your guess was too low.");
+      } else if (isNaN(parseInt(guessNumber))) {
+        attempts--;
+        alert("You can only guess a numerical value. You just wasted a guess.");
+      }
+    }
+  }
+  finalScore1 = +attempts;
+  console.log(finalScore1);
+}
+
+//7th quiz
+function game2() {
+
+  let lastQ = alert("I promise this is the last game we will play");
+  let mcdmenu = ['BIG MAC', 'DOUBLE CHEESEBURGER', 'CHICKEN SANDWICH', 'MCNUGGETS', 'QUARTER POUNDER', 'MCFLURRY', 'SPICY MCCHICKEN'];
+  const random = Math.floor(Math.random() * 6) + 1;
+  let answer = mcdmenu[parseInt(random)];
+  let tries1 = 6;
+  console.log(answer);
+  alert(`Guess my favorite menu from McDonalds.`);
+  
+  
+  let guess=prompt(`You have ${tries1} guesses left. Pick one from the MENU: ${mcdmenu}`);
+  guess=guess.toUpperCase();
+  for(let i=6; i>0; i--){
+    
+  while(mcdmenu.indexOf(guess)>-1){
+    let guess=prompt(`You have ${tries1} guesses left. Pick one from the MENU: ${mcdmenu}`);
+  guess=guess.toUpperCase();
+    if(guess!==answer){
+      tries1--;
+      alert=(`Eh, I rarely order ${guess}.`)
+    }
+    if(guess===answer){
+      alert(`Correct! I always order ${answer}.`);
+    }}
+  if(mcdmenu.indexOf(guess)===-1){
+    tries1--;
+    prompt(`incorrect. Try again.You have ${tries1} guesses left. Pick one from the MENU: ${mcdmenu}`);
+  guess=guess.toUpperCase();}
+  }
+}
+let finalScore2 = tries1;
+let total = finalScore1 + finalScore2
+console.log(`You got ${finalScore2} point from this quiz. Your total score is ${total}`);
+alert(`You got ${finalScore2} from this quiz. Your total score is ${total}`)
