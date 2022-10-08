@@ -5,6 +5,7 @@ function game1() {
   const randomNumber = Math.floor(Math.random() * 15) + 1;
 
   let finalScore1 = 0;
+  let finalScore2=0;
   let attempts = 5;
   let intro =
   
@@ -68,6 +69,7 @@ function game2(){
   guess=guess.toUpperCase();}
   }
 }
+
 let finalScore2 = tries1;
 let total = finalScore1 + finalScore2
 console.log(`You got ${finalScore2} point from this quiz. Your total score is ${total}`);
