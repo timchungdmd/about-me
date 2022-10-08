@@ -90,27 +90,29 @@ function game1() {
   let finalScore1 = 0;
   let attempts = 5;
   let intro =
+  
     alert(
       `I'm thinking of a number between 1 and 15 right now. What number am I thinking?`
     );
-
-  while (attempts > 0) {
+  for(i=attempts; i>0; i--){
     let guessNumber = prompt(
       `Pick a number. You have ${attempts} attempts left`);
     if (parseInt(guessNumber) === randomNumber) {
-      alert("You guessed the correct number! Congratulations! You get " + attempts + " point(s).");
-      break;
-    } else if (parseInt(guessNumber) !== randomNumber) {
-      if (parseInt(guessNumber) > randomNumber) {
+        alert("You guessed the correct number! Congratulations! You get " +   attempts + " point(s).");
+        break;
+  } else if (parseInt(guessNumber) !== randomNumber && parseInt(guessNumber) > randomNumber){
         attempts--;
         alert("Your guess was too high.");
-      } else if (parseInt(guessNumber) < randomNumber) {
+  } else if (parseInt(guessNumber) !== randomNumber&&parseInt(guessNumber) < randomNumber) {
         attempts--;
         alert("Your guess was too low.");
-      } else if (isNaN(parseInt(guessNumber))) {
+  } else if (parseInt(guessNumber) !== randomNumber&&isNaN(parseInt(guessNumber))) {
         attempts--;
         alert("You can only guess a numerical value.");
       }
+    if(attempts===0){
+        alert('You used all you guesses. Try again next time.')
+        break;
     }
   }
   finalScore1 = +attempts;
