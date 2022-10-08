@@ -12,7 +12,7 @@ function qName() {
 
 let likeMarvel = prompt("Do you like Marvel movies?");
   while(likeMarvel===''){
-    likeMarvel=prompt("It's a yes or no question");
+    likeMarvel=prompt("It's a yes or no question. Do you like Marvel movies?");
     likeMarvel = likeMarvel.toLowerCase();
   }
     if (likeMarvel === "yes" || likeMarvel === "y") {
