@@ -3,12 +3,10 @@
 function game1() {
   let begin = alert("Let's play another game!");
   const randomNumber = Math.floor(Math.random() * 15) + 1;
-  let finalScore2=0;
+  
   let finalScore1 = 0;
-  let finalScore2=0;
   let attempts = 5;
   let intro =
-  
     alert(
       `I'm thinking of a number between 1 and 15 right now. What number am I thinking?`
     );
@@ -45,7 +43,8 @@ function game2(){
   const random = Math.floor(Math.random() * 6) + 1;
   let answer = mcdmenu[parseInt(random)];
   let tries1 = 6;
-
+  let finalScore2=0;
+  
   alert(`Guess my favorite menu from McDonalds.`);
   
   
@@ -68,7 +67,7 @@ function game2(){
     prompt(`incorrect. Try again.You have ${tries1} guesses left. Pick one from the MENU: ${mcdmenu}`);
   guess=guess.toUpperCase();}
   }
-  let finalScore2 = tries1;
+  finalScore2 = tries1;
 let total = finalScore1 + finalScore2
 console.log(`You got ${finalScore2} point from this quiz. Your total score is ${total}`);
 alert(`You got ${finalScore2} from this quiz. Your total score is ${total}`)
