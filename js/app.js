@@ -80,7 +80,7 @@ function qTravel() {
   alert(username + ", thank you for participating in this short survey!");
 }
 
-//6th quiz
+
 function game1() {
   let start = alert("Let's play another game!");
   const randomNumber = Math.floor(Math.random() * 15) + 1;
@@ -115,7 +115,7 @@ function game1() {
   console.log(finalScore1);
 }
 
-//7th quiz
+
 function game2() {
 
   let lastQ = alert("I promise this is the last game we will play");
