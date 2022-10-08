@@ -7,7 +7,6 @@ function qName() {
      username=prompt('You can\'t leave this answer blank. What is your name pretty please?');
   }  
   let greet=alert("Hi " + username + ", welcome to my About Me page");
-qNames();
   alert("I am going to ask you 5 questions and lets see if we are alike or not.");
 
 
