@@ -6,9 +6,9 @@ function qName() {
      username=prompt('You can\'t leave this answer blank. What is your name pretty please?');
   }  
   let greet=alert("Hi " + username + ", welcome to my About Me page");
-
+qNames();
   alert("I am going to ask you 5 questions and lets see if we are alike or not.");
-  
+
 
 let likeMarvel = prompt("Do you like Marvel movies?");
   while(likeMarvel===''){
@@ -22,6 +22,7 @@ let likeMarvel = prompt("Do you like Marvel movies?");
     alert("It's ok, to each its own");
     }
 }
+likeMarvel();
 
 function qTaco() {
   let likeTacos = prompt("Do you like tacos?");
@@ -35,6 +36,7 @@ function qTaco() {
   alert("It was never a right or wrong question. You do you!");
   } 
 }
+qTaco();
 
 function qAnime() {
   let watchAnime = prompt("Do you watch animes?");
@@ -48,6 +50,7 @@ function qAnime() {
     alert("I understand. There are so many other things to watch these days!");
   } 
 }
+qAnime();
 
 function qApple() {
   let iPhone = prompt("Do you use an iPhone?");
@@ -62,6 +65,7 @@ function qApple() {
   } 
 
 }
+qApple();
 
 function qTravel() {
   let likeTravel = prompt("Do you like to travel?");
@@ -77,7 +81,7 @@ function qTravel() {
   } 
 alert(username + ", thank you for participating in this short survey!");
 }
-
+aTravel();
 
 function game1() {
   let begin = alert("Let's play another game!");
