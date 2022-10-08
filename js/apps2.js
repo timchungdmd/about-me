@@ -1,5 +1,5 @@
 "use strict";
-game1();
+
 function game1() {
   let begin = alert("Let's play another game!");
   const randomNumber = Math.floor(Math.random() * 15) + 1;
@@ -34,8 +34,9 @@ function game1() {
   }
   finalScore1 = +attempts;
 }
+game1();
 
-game2();
+
 function game2(){
 
   let lastQ = alert("I promise this is the last game we will play");
@@ -71,3 +72,5 @@ let finalScore2 = tries1;
 let total = finalScore1 + finalScore2
 console.log(`You got ${finalScore2} point from this quiz. Your total score is ${total}`);
 alert(`You got ${finalScore2} from this quiz. Your total score is ${total}`)
+
+game2();
