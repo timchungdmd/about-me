@@ -82,7 +82,7 @@ function qTravel() {
 
 
 function game1() {
-  let start = alert("Let's play another game!");
+  let begin = alert("Let's play another game!");
   const randomNumber = Math.floor(Math.random() * 15) + 1;
 
   let finalScore1 = 0;
