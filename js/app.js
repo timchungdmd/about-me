@@ -83,6 +83,7 @@ alert(username + ", thank you for participating in this short survey!");
 }
 aTravel();
 
+game1();
 function game1() {
   let begin = alert("Let's play another game!");
   const randomNumber = Math.floor(Math.random() * 15) + 1;
@@ -117,9 +118,9 @@ function game1() {
   }
   finalScore1 = +attempts;
 }
-game1();
 
-function game2() {
+game2();
+function game2(){
 
   let lastQ = alert("I promise this is the last game we will play");
   let mcdmenu = ['BIG MAC', 'DOUBLE CHEESEBURGER', 'CHICKEN SANDWICH', 'MCNUGGETS', 'QUARTER POUNDER', 'MCFLURRY', 'SPICY MCCHICKEN'];
