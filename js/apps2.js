@@ -1,3 +1,4 @@
+"use strict";
 game1();
 function game1() {
   let begin = alert("Let's play another game!");
