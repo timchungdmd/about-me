@@ -75,9 +75,7 @@ function qTravel() {
   } else if (likeTravel === "no" || likeTravel === "n") {
     alert("You should plan for a travel in the near future. You earned it!");
   } 
-
-
-  alert(username + ", thank you for participating in this short survey!");
+alert(username + ", thank you for participating in this short survey!");
 }
 
 
