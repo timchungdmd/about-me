@@ -1,5 +1,6 @@
 'use strict';
 "use strict";
+qName();
 function qName() {
   let username = prompt("What is your name?");
   while(username===''){
@@ -24,6 +25,7 @@ let likeMarvel = prompt("Do you like Marvel movies?");
 }
 likeMarvel();
 
+qTaco();
 function qTaco() {
   let likeTacos = prompt("Do you like tacos?");
   while(likeTacos===''|| !isNaN(likeTacos)){
@@ -36,8 +38,8 @@ function qTaco() {
   alert("It was never a right or wrong question. You do you!");
   } 
 }
-qTaco();
 
+qAnime();
 function qAnime() {
   let watchAnime = prompt("Do you watch animes?");
   while(watchAnime===''|| !isNaN(watchAnime)){
@@ -50,8 +52,8 @@ function qAnime() {
     alert("I understand. There are so many other things to watch these days!");
   } 
 }
-qAnime();
 
+qApple();
 function qApple() {
   let iPhone = prompt("Do you use an iPhone?");
   while(iPhone===''|| !isNaN(iPhone)){
@@ -65,8 +67,8 @@ function qApple() {
   } 
 
 }
-qApple();
 
+qTravel();
 function qTravel() {
   let likeTravel = prompt("Do you like to travel?");
   while(likeTravel===''|| !isNaN(likeTravel)){
@@ -81,7 +83,7 @@ function qTravel() {
   } 
 alert(username + ", thank you for participating in this short survey!");
 }
-aTravel();
+
 
 game1();
 function game1() {
