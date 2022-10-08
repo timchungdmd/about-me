@@ -111,7 +111,7 @@ function game1() {
         alert("You can only guess a numerical value.");
       }
     if(attempts===0){
-        alert('You used all you guesses. Try again next time.')
+        alert(`You used all you guesses. You get ${attempts} points this round. Try again next time.`)
         break;
     }
   }
