@@ -81,7 +81,7 @@ function qTravel() {
 }
 
 
-function game1() {
+function game1(){
   let start = alert("Let's play another game!");
   const randomNumber = Math.floor(Math.random() * 15) + 1;
 
