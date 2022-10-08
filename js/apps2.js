@@ -11,7 +11,7 @@ function game1() {
     alert(
       `I'm thinking of a number between 1 and 15 right now. What number am I thinking?`
     );
-  for(i=attempts; i>0; i--){
+  for(let i=attempts; i>0; i--){
     let guessNumber = prompt(
       `Pick a number. You have ${attempts} attempts left`);
     if (parseInt(guessNumber) === randomNumber) {
