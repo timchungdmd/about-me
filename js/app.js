@@ -112,7 +112,6 @@ function game1() {
     }
   }
   finalScore1 = +attempts;
-  console.log(finalScore1);
 }
 
 
@@ -123,7 +122,7 @@ function game2() {
   const random = Math.floor(Math.random() * 6) + 1;
   let answer = mcdmenu[parseInt(random)];
   let tries1 = 6;
-  console.log(answer);
+
   alert(`Guess my favorite menu from McDonalds.`);
   
   
