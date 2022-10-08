@@ -23,7 +23,7 @@ let likeMarvel = prompt("Do you like Marvel movies?");
     alert("It's ok, to each its own");
     }
 }
-likeMarvel();
+
 
 qTaco();
 function qTaco() {
